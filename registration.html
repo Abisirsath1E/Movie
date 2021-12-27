@@ -1,0 +1,140 @@
+<!DOCTYPE HTML>
+<html>
+<title>Registration Form</title>
+
+<head>
+    <style>
+        * {
+            margin: 0;
+            padding: 20;
+        }
+        
+        body {
+            background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(photo.jpg);
+            height: 100vh;
+            background-size: cover;
+            background-position: center;
+            max-width: 100%;
+            margin: auto;
+        }
+        
+        h1 {
+            text-align: center;
+            padding: 2px;
+            color: white;
+        }
+        
+        h2 {
+            text-align: center;
+            padding: 10px;
+        }
+        
+        .register {
+            background-color: transeparent;
+            width: 500px;
+            margin: 0px 0px 0px 500px;
+            color: white;
+            font-size: 18;
+            padding: 20px;
+            border-radius: 30px;
+        }
+        
+        #register {
+            margin-left: 50px;
+        }
+        
+        label {
+            color: white;
+            font-size: 18px;
+        }
+        
+        #name {
+            width: 300px;
+            border: none;
+            border-radius: 3px;
+            outline: 0;
+            padding: 7px;
+        }
+        
+        #ph {
+            width: 65px;
+            border: none;
+            border-radius: 3px;
+            outline: 0;
+            padding: 7px;
+        }
+        
+        #num {
+            width: 230px;
+            border: none;
+            border-radius: 3px;
+            outline: 0;
+            padding: 7px;
+        }
+        
+        #sub {
+            width: 200px;
+            border: none;
+            border-radius: 3px;
+            outline: 0;
+            padding: 7px;
+            font-size: 16px;
+            font-family: sans-serif;
+            font-style: italic;
+            font-weight: 600;
+        }
+    </style>
+</head>
+
+<body>
+    <a href="index.html">
+        <svg xmlns="http://www.w3.org/2000/svg"  width="60" height="45" fill="white" class="bi bi-play-btn" viewBox="0 0 16 16"  >
+            <path d="M6.79 5.093A.5.5 0 0 0 6 5.5v5a.5.5 0 0 0 .79.407l3.5-2.5a.5.5 0 0 0 0-.814l-3.5-2.5z"></path>
+             <path d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V4zm15 0a1 1 0 0 0-1-1H2a1 1 0 0 0-1 1v8a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1V4z"></path>
+           </svg></a>
+    <div class="register">
+        <div style="width: 75%;
+    background-color:transparent;
+    position:center;
+           color:white;
+">
+            <form method="post" id="register" action="login.html">
+                <h2>REGISTRATION FORM</h2>
+                <label>First Name:</label><br>
+                <input type="text" name="fname" id="name" placeholder="Enter your first name"><br><br>
+
+
+                <label>Last Name:</label><br>
+                <input type="text" name="lname" id="name" placeholder="Enter your last name"><br><br>
+
+
+                <label>Mobile Number:</label>
+                <br><input type="number" name="MNum" id="num" placeholder="Enter your mobile number"><br><br>
+
+
+                <label>Email:</label>
+                <br><input type="email" name="email" id="name" placeholder="Enter your email">
+                <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small><br><br>
+
+
+                <label>Username:</label>
+                <br><input type="username" name="username" id="name" placeholder="Enter your username"><br><br>
+                <label>Create password:</label>
+                <br><input type="password" name="password" id="name" placeholder="Enter your password"><br><br>
+                <label>Confirm password:</label>
+                <br><input type="password" name="password" id="name" placeholder="Enter your password"><br><br>
+                <label>Gender :-</label>
+                <input type="radio" name="male" id="male" id="male"><span id="male">&nbsp; Male</span>&nbsp;&nbsp;
+                <input type="radio" name="male" id="male" id="male"><span id="male">&nbsp; Female</span>&nbsp;&nbsp;
+                <input type="radio" name="male" id="male" id="male"><span id="male">&nbsp;
+Other</span>&nbsp;&nbsp;<br><br>
+
+             
+              <a href="index.html">
+                <center><input type="button" value="Submit" id="sub"class="submit"></center><br></a>
+
+            </form>
+        </div>
+</body>
+
+</html>
